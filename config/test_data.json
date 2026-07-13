@@ -1,0 +1,18 @@
+{
+  "valid_user": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalid_user": {
+    "username": "WrongUser",
+    "password": "WrongPass"
+  },
+  "new_employee": {
+    "first_name": "John",
+    "middle_name": "K",
+    "last_name": "Doe"
+  },
+  "search": {
+    "admin_username": "Admin"
+  }
+}

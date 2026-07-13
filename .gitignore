@@ -1,0 +1,17 @@
+# venv
+venv/
+.env
+
+# IDEs
+.idea/
+.vscode/
+
+# python
+__pycache__/
+*.pyc
+
+# generated
+reports/
+screenshots/
+logs/
+.pytest_cache/

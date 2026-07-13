@@ -1,0 +1,19 @@
+# Global framework configuration
+app:
+  base_url: "https://opensource-demo.orangehrmlive.com/"
+  login_path: "web/index.php/auth/login"
+
+browser:
+  default: "chrome"       # chrome | firefox | edge
+  headless: true          # true for CI, false for local debugging
+  window_size: "1920,1080"
+
+timeouts:
+  implicit: 5
+  explicit: 15
+  page_load: 30
+
+paths:
+  screenshots: "screenshots"
+  logs: "logs"
+  reports: "reports"
